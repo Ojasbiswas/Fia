@@ -3,8 +3,9 @@ using UnityEngine.InputSystem;
 using static UnityEditor.Searcher.SearcherWindow.Alignment;
 using System.Collections;
 
-//pos = Vector3(80.7999878,7.19999695,-49.7999992)
-//pos(level2) = Vector3(-148.699997,9.59000015,-5.5)
+//pos = new Vector3(80.7999878,7.19999695,-49.7999992)
+//pos(level2) = new Vector3(-148.699997,9.59000015,-5.5)
+// lv3 pos = Vector3(-134,37,-6)
 
 public class DroneController : MonoBehaviour
 {
@@ -104,7 +105,7 @@ public class DroneController : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag != "parcel")
+        if (collision.gameObject.tag != "parcel" && collision.gameObject.tag != "Invisible Wall")
         {
             ropeJoint.GetComponent<ConfigurableJoint>().connectedBody = null;
             ropeJoint.GetComponent<Rigidbody>().isKinematic = false;
@@ -115,7 +116,7 @@ public class DroneController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag != "parcel")
+        if (collision.gameObject.tag != "parcel" && collision.gameObject.tag != "Invisible Wall")
         {
             ropeJoint.GetComponent<ConfigurableJoint>().connectedBody = null;
             ropeJoint.GetComponent<Rigidbody>().isKinematic = false;

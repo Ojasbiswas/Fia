@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckpointManager : MonoBehaviour
 {
@@ -7,8 +8,12 @@ public class CheckpointManager : MonoBehaviour
     private Vector3 lastCheckpoint;
     private bool hasCheckpoint = false;
 
+    
+
     void Awake()
     {
+        
+
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);

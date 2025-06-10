@@ -9,7 +9,7 @@ public class ParcelFallScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag != "rope" && collision.gameObject.tag != "drone")
+        if (collision.gameObject.tag != "rope" && collision.gameObject.tag != "drone" && collision.gameObject.tag != "Invisible Wall")
         {
             joint.connectedBody = null;
             joint.yMotion = ConfigurableJointMotion.Free;

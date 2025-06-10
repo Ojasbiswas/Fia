@@ -15,7 +15,7 @@ public class RopeDestructionScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag != "rope" && other.gameObject.tag != "parcel")
+        if (other.gameObject.tag != "rope" && other.gameObject.tag != "parcel" && other.gameObject.tag != "Invisible Wall")
         {
             joint.connectedBody = null;
             joint.yMotion = ConfigurableJointMotion.Free;
