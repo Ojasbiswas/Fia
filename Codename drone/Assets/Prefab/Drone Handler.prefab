@@ -177,7 +177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &397059338677135789
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &658766617337644615
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,7 +753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &1110830939428224101
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,7 +931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &1446200669297183860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &3537135875002910987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &4144788155897203366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,7 +2080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &4441751802636210796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,7 +2368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &5140996430085106581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,7 +2656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &5350385978380090568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2944,7 +2944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &6155777539372783723
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,7 +3122,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 36c141af1fac89447b8b1bd1ed7d61cf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3205,8 +3205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 4663777213077958406}
-  GameoverPanel: {fileID: 0}
-  WinPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
+  WinPanel: {fileID: 4857457305240056780, guid: 8f106f4ff76c67f41b54d4723386a270, type: 3}
 --- !u!1 &6466797496296584800
 GameObject:
   m_ObjectHideFlags: 0
@@ -3384,7 +3384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &6767627620592226937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4210,7 +4210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &8742273447664756971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4271,7 +4271,7 @@ MonoBehaviour:
   boxRb: {fileID: 0}
   parcelConnectedBody: {fileID: 4663777213077958406}
   ropeJoint: {fileID: 8592161604198940835}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!54 &3343366804318429175
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4594,7 +4594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1 &9030625509487356356
 GameObject:
   m_ObjectHideFlags: 0
@@ -4772,7 +4772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joint: {fileID: 0}
-  GameoverPanel: {fileID: 0}
+  GameoverPanel: {fileID: 6609219243966083263, guid: 878b5ce0ad5e3d748bbb39865986bce8, type: 3}
 --- !u!1001 &8058000654595788284
 PrefabInstance:
   m_ObjectHideFlags: 0

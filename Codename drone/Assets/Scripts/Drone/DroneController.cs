@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
+//using static UnityEditor.Searcher.SearcherWindow.Alignment;
 using System.Collections;
 
 //pos = new Vector3(80.7999878,7.19999695,-49.7999992)
@@ -31,6 +31,7 @@ public class DroneController : MonoBehaviour
 
     void Start()
     {
+
         Time.timeScale = 1f;
 
         rb = transform.GetComponent<Rigidbody>();
@@ -79,7 +80,7 @@ public class DroneController : MonoBehaviour
         // Ascend/Descend � separately scaled
         if (Input.GetKey(KeyCode.Space))
             move += Vector3.up * ascendSpeed;
-        if (Input.GetKey(KeyCode.LeftControl))
+        if (Input.GetKey(KeyCode.LeftShift))
             move += Vector3.down * ascendSpeed;
 
         rb.AddForce(move);
